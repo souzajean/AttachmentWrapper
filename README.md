@@ -3,25 +3,17 @@
 
 📌 Visão Geral
 
-Este projeto demonstra, na prática, como construir um iFlow no SAP BTP Integration Suite utilizando conceitos avançados de integração.
+Em cenários reais de integração no SAP BTP Integration Suite (Cloud Integration – CPI), é comum a necessidade de gerar arquivos dinamicamente e enviá-los como anexo — principalmente em integrações com:
 
-O cenário implementado realiza a conversão de valores em USD para BRL, combinando dados de entrada com uma API externa de câmbio em tempo real.
+E-mail
 
-<br>
+APIs externas
 
-![Fluxo](imagens/capa-linkedin.png)
+Sistemas legados
 
----
+Processos automatizados
 
-📸 Caso de Uso Real
-
-Esse tipo de cenário é comum em integrações corporativas onde:
-
-É necessário enriquecer dados com informações externas
-
-Processar dados em paralelo para otimizar performance
-
-Consolidar múltiplas fontes em um único payload
+Pensando nisso, este artigo demonstra, de forma prática, como utilizar o AttachmentWrapper para criar e anexar arquivos diretamente dentro de um iFlow.
 
 ---
 
