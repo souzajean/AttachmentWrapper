@@ -27,13 +27,12 @@ Consolidar múltiplas fontes em um único payload
 
 
 # :building_construction: Arquitetura do iFlow
-
-<br><br>
+<br>
 :gear: Etapas da Integração
 <br>
 
 ### :one: O fluxo foi desenvolvido no SAP Cloud Integration (CPI) seguindo as etapas abaixo.
-<br><br>
+<br>
 ### Criando Manage Security
 ![Fluxo](imagens/Screenshot_1.png)
 <br><br><br>
