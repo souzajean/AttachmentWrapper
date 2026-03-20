@@ -118,7 +118,7 @@ AttachmentWrapper
 <br>
 
 ### Adicionadno nosso script do Groovy Script
-📦 [Download - GroovyScript](https://github.com/souzajean/AttachmentWrapper/raw/main/GroovyScript/AttachmentWrapper.groovy)
+📦 [Download - GroovyScript](https://github.com/souzajean/AttachmentWrapper/blob/main/GroovyScript/AttachmentWrapper.groovy)
 
 
 ![Fluxo](imagens/Screenshot_13.png)
@@ -204,8 +204,7 @@ Add Message Attachements: marcar
 
 ## 📦 Exemplo prático – iFlow para baixar
 
-📦 [Download do iFlow – AttachmentWrapper](https://github.com/souzajean/AttachmentWrapper/blob/main/Package/AttachmentWrapper.zip)
-
+📦 [Download do iFlow – AttachmentWrapper](https://github.com/souzajean/AttachmentWrapper/raw/main/Package/AttachmentWrapper.zip)
 
 
 > O arquivo pode ser importado diretamente no SAP Integration Suite (CPI).
