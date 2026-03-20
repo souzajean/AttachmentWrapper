@@ -117,7 +117,7 @@ AttachmentWrapper
 
 <br>
 
-### Adicionadno nosso script do Groovy Script
+### Adicionando nosso script do Groovy Script
 📦 [Download - GroovyScript](https://github.com/souzajean/AttachmentWrapper/blob/main/GroovyScript/AttachmentWrapper.groovy)
 
 
