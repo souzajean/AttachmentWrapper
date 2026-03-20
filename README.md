@@ -1,9 +1,5 @@
-# AttachmentWrapper
-SAP BTP CPI - AttachmentWrapper
-
-
-# 💵 Convertendo Dollar para Real
-## 🚀 SAP BTP Integration Suite (CPI) – Conversão de Moeda com Parallel Multicast
+# 📎 AttachmentWrapper
+## 🚀 SAP BTP Integration Suite (CPI) – Trabalhando com AttachmentWrapper
 
 📌 Visão Geral
 
@@ -14,7 +10,6 @@ O cenário implementado realiza a conversão de valores em USD para BRL, combina
 <br>
 
 ![Fluxo](imagens/capa-linkedin.png)
-
 
 ---
 
