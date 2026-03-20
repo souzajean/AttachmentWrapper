@@ -119,34 +119,71 @@ AttachmentWrapper
 
 <br>
 
-### Adicionando  JSON to XML Converter
+### Criando nosso arquivo Groovy Script
 
 ![Fluxo](imagens/Screenshot_12.png)
 
 <br>
 
-### Renomeando o  JSON to XML Converter
+### Adicionadno nosso script do Groovy Script
 ![Fluxo](imagens/Screenshot_13.png)
 ```
-JSON to XML Dolar
+import com.sap.gateway.ip.core.customdev.util.Message;
+import com.sap.gateway.ip.core.customdev.util.AttachmentWrapper;
+import javax.mail.util.ByteArrayDataSource;
+
+def Message processData(Message message) {
+
+    // Body da mensagem
+    String body = message.getBody(String.class);
+
+    // Conteúdo do attachment
+    def content = "Arquivo gerado via CPI usando AttachmentWrapper";
+
+    // Criando DataSource
+    def attachmentDataSource = new ByteArrayDataSource(content.getBytes(), "text/plain");
+
+    // 🔥 Novo padrão (recomendado)
+    def attachment = new AttachmentWrapper(attachmentDataSource);
+
+    // Adicionando attachment
+    message.addAttachmentObject("arquivo.txt", attachment);
+
+    return message;
+}
 ```
 <br>
 
-### Adicionando Multicast Paralel
+### Adicionando Mail
 ![Fluxo](imagens/Screenshot_14.png)
 
 <br>
 
-### Renomeando Multicast Paralel
+### Configurando o Mail Connection
 ![Fluxo](imagens/Screenshot_15.png)
 ```
-Parallel Multicast
+Address: smtp.gmail.com
+Credential Name: GmailUser
 ```
-
 <br>
 
-### Adicionando o Content Modifier
+### Configurando o Mail Processing
 ![Fluxo](imagens/Screenshot_16.png)
+```
+Subject: SAP CPI Attachment
+Mail Body:
+<html>
+  <body style="font-family: Arial;">
+    <h2 style="color:#0a6ed1;">SAP CPI - Notificação</h2>
+    <p>O arquivo foi gerado com sucesso.</p>
+    <p><b>Verifique o anexo.</b></p>
+  </body>
+</html>
+
+Body Mime Type: Text/HTML
+
+Add Message Attachements: marcar
+```
 
 <br>
 
