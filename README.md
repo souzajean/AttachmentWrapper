@@ -96,13 +96,6 @@ Address: /attachment-demor
 <br>
 
 ### :four:  JSON to XML Converter
-### Adicionando o JSON to XML Converter
-![Fluxo](imagens/Screenshot_8.png)
-
-<br>
-
-### Renomeando o JSON to XML Converter
-![Fluxo](imagens/Screenshot_9.png)
 
 <br>
 
@@ -187,11 +180,14 @@ Add Message Attachements: marcar
 
 <br>
 
-### Renomeando o Content Modifier
+### Email Recebido com o anexo
 ![Fluxo](imagens/Screenshot_17.png)
-```
-setOrderXML
-```
+
+<br>
+
+### Anexo gerado pelo Groovy Script
+![Fluxo](imagens/Screenshot_18.png)
+
 
 
 
