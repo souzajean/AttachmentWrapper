@@ -14,7 +14,9 @@ Sistemas legados
 Processos automatizados
 
 Pensando nisso, este artigo demonstra, de forma prática, como utilizar o AttachmentWrapper para criar e anexar arquivos diretamente dentro de um iFlow.
+
 ![Fluxo](imagens/capa-linkedin.png)
+
 ---
 
 
